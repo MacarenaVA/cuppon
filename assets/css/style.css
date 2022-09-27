@@ -1,0 +1,75 @@
+:root {
+    --dark-blue: #212529;
+    --gray: #707070;
+    --green: #28a745;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: var(--green)
+}
+
+.navbar-brand {
+    width: 5.375rem;
+}
+
+.navbar-toggler {
+    width: 3.688rem;
+}
+
+article .card-body .card-title {
+    color: var(--dark-blue);
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+article .card-body .card-text {
+    color: var(--gray);
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+article .card-body .adress-text {
+    color: var(--gray);
+    font-weight: 200;
+    font-size: 0.813rem;
+}
+
+article .card-body .price-text {
+    color: var(--gray);
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+article .card-body .price-text strong {
+    color: var(--green);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.contact {
+    background-color: var(--green);
+}
+
+.conteiner {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+button {
+    font-weight: 400;
+    font-size: 1rem;
+    color: val(--dark-blue);
+}
+
+footer .container p {
+    font-weight: 200;
+    font-size: 1rem;
+    color: var(--gray);
+}
+img {
+    width: 5.125rem;
+}
